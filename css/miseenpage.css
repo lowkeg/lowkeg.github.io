@@ -76,7 +76,9 @@ h1 {
    
     
 }
-
+p{
+    text-align: center;
+}
 
 
 img {
@@ -89,6 +91,17 @@ img {
 .texte{
     display: flex;
     flex-direction: row;
-    background-color: aquamarine;
-    margin: 5px;
+    justify-content: space-evenly;
+    text-align: left;
+    margin: 15px;
+    
+}
+.para1{
+background-color: aquamarine;padding: 10px;margin: 5px;
+}
+.para2{
+background-color: blueviolet;padding: 10px;margin: 5px;
+}
+.para3{
+background-color: brown;padding: 10px;margin: 5px;
 }
