@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    
+    <title>Enquête Afpa</title>
+</head>
+
+<body>
+    <h1 align="center">Nous lançons une grande enquête sur les anciens stagiaires</h1>
+    <h2 align="center">Merci de votre réponse</h2>
+    <form action="http://localhost/afpa.dev/formulaire.php"method="get">
+    <p><input type="text" name="name" id="name" required size="20" autocomplete="family-name"> <label for=name>Votre nom
+
+    </label></p>
+
+   <p><input type="text" name="surname" id="surname" required size="20" autocomplete="given-name"> <label
+            for="surname">Votre prénom
+        </label></p>
+    <p><input type="date" name="naissance" id="naissance" required size="20" autocomplete="bday"> <label
+            for="naissance">Votre date de
+            naissance</label></p>
+    <p> <input type="text" name="adresse" id="adresse" required size="20" autocomplete="street-address"> <label
+            for="adresse"> Votre adresse</label>
+    </p>
+    <p><input type="text" name="ville" id="ville" required size="20" autocomplete="address-level2"> <label for="ville"
+            required> Votre ville</label>
+    </p>
+    <p><input type="postal-code" name="codepostal" id="codepostal" required size="20" autocomplete="postal-code"> <label
+            for="codepostal"> Votre code
+            postal</label></p>
+    <p><input type="email" name="email" id="email" required size="20" autocomplete="email"> <label for="email"> Votre
+            email</label></p>
+
+    <p><input type="checkbox" name="sexe" id="sexe" ><label for="sexe"> Vous êtes une
+            femme</label><input type="checkbox" name="sexe" id="sexe"><label for="sexe">Vous êtes un
+            homme</label></p>
+<p><input type="text" name="metiers" id="metier"list="list_metier" required/>
+    <datalist id="list_metier"><option value="Développeur" /><option value="Analyste"/><option value="Chef de projet"/> <option value="Autre"/></object></option></datalist> métier</p>
+    <p><input type="text"name="salaire" id="salaire" list="salaire_mensuel"> <datalist id="salaire_mensuel"><option value="1500 €"/><option value="2000 €"/><option value="2500 €"/><option value="> 2500 €"/></datalist>Salaire</p>
+    <p><textarea id="msg" name="user_message" rows="10" cols="15"></textarea><label for="msg"> votre message :</label>
+    </p>
+<button type="submit">Validez</button><button type="reset">Annulez</button>
+</form>
+</body>
+
+</html>
