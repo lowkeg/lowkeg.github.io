@@ -14,13 +14,13 @@ function verifimposition() {
  
   if (age.value>20 && genre.value =="Masculin"){
       
-     resultat.innerHTML = "<p class=alert-danger> Vous êtes imposables</p>";
+     resultat.innerHTML = "<p class=alert-danger> Vous êtes imposable</p>";
   }
   else if (age.value>17 && age.value<36 && genre.value=="Feminin") {
-     resultat.innerHTML="<p class=alert-danger> Vous êtes imposables</p>";
+     resultat.innerHTML="<p class=alert-danger> Vous êtes imposable</p>";
     
   }else{
-    resultat.innerHTML="<p class=alert-primary>Vous n'êtes pas imposables</p>"; 
+    resultat.innerHTML="<p class=alert-primary>Vous n'êtes pas imposable</p>"; 
 
   }
   // return alert("vous n'êtes pas imposable");
