@@ -1,0 +1,19 @@
+html{
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    border: solid 1px gray;
+    box-shadow: 6px 6px 6px;
+    text-align: center;
+}
+p{
+    transition:1.25s;
+    box-shadow: 2px 2px 24px;
+    
+}

@@ -1,0 +1,42 @@
+html {
+
+    box-sizing: border-box;
+    font-family:
+        'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    min-height: 200vh;
+    color: white;
+}
+
+.box {
+    border: 6px solid white;
+    transition: 1.25s ease;
+    background: black;
+    padding: 10px;
+}
+.rep1{
+    visibility: hidden;
+    width: 240px;
+    margin: 10px auto 0;
+    color:green;
+    
+
+}
+.rep2{
+    visibility: hidden;
+    width: 240px;
+    margin: 10px auto 0;
+    color:red;
+
+}
+.questionclick{
+    box-shadow:6px 6px 12px ;
+    background: rgb(32, 5, 82);
+    border-radius: 30px;
+    border: 6px dashed red;
+}

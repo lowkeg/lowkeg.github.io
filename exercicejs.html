@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercices javascript</title>
+    <link rel="stylesheet" href="css/excercice.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1>Les impots Zorglubiens</h1>
+    <section class="container">
+        <form action=""method="dialog">
+        <article  class="flex-row text-center m-5">
+            <label for="age" class="form-label m-2 ">Saisissez votre age <br>
+            <input method="submit" type="number" name="age-saisi" id="age-saisi" required></label>
+
+        </article>
+        <article  class="flex-row text-center  m-5">
+
+            <label for="genre-saisi"class="form-label m-2 p-2">Choisir le genre: <br>
+            <select class="text-center" name="genre-saisi" id="genre-saisi"></label>
+                <option value="valeur">Choisissez une valeur</option>
+                <option value="Masculin">Masculin</option>
+                <option value="Feminin">Féminin</option>
+            </select> <br>
+            <!-- <input id="bouton" type="button, submit" value=Vérifier class="btn btn-primary flex-row m-5" >  -->
+           <button type="submit" value="submit" class="btn btn-primary flex-row m-5" id="bouton">Valider</button> 
+           
+        </article></form>
+        <aside><p id="result"></p>
+    </section></aside> 
+    <script src="js/excercice.js"></script>
+</body>
+
+</html>
