@@ -1,0 +1,38 @@
+html{
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    border: solid 1px gray;
+    box-shadow: 6px 6px 6px;
+    text-align: center;
+}
+.paie{
+    transition: 2.25ms;
+    background-color: rgb(124, 201, 36);
+    box-shadow:6px 6px 15px ;
+    width: auto;
+    display: inline-flex;
+    justify-content: space-evenly;
+    border-radius: 12px;
+   padding: 10px;
+   content: "€";
+}
+.exo{
+    transition: 2.25ms;
+    background-color: cadetblue;
+    box-shadow: 2px 2px 24px;
+    width: 25%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    padding: 10px;
+}
+.euro:after{
+    content:"€";
+}
