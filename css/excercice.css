@@ -12,8 +12,14 @@ h1{
     box-shadow: 6px 6px 6px;
     text-align: center;
 }
-p{
-    transition:1.25s;
+.paie{
+    transition: 1.25ms;
+    background-color: red;
     box-shadow: 2px 2px 24px;
     
+}
+.exo{
+    transition: 1.25ms;
+    background-color: cadetblue;
+    box-shadow: 2px 2px 24px;
 }
