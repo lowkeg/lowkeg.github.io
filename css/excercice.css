@@ -13,13 +13,22 @@ h1{
     text-align: center;
 }
 .paie{
-    transition: 1.25ms;
+    transition: 2.25ms;
     background-color: red;
     box-shadow: 2px 2px 24px;
-    
+    width: 25%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    border-radius: 12px;
+   padding: 10px;
 }
 .exo{
-    transition: 1.25ms;
+    transition: 2.25ms;
     background-color: cadetblue;
     box-shadow: 2px 2px 24px;
+    width: 25%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    padding: 10px;
 }
