@@ -7,7 +7,7 @@ const d = 1;
 let result = document.getElementById("result");
 const form = document.querySelector("form");
 console.log(result);
-function price() {
+function price(e) {e.preventDefault();
   number = document.getElementById("photocopies").value;
   console.log(number);
   if (number > 0 && number < 11) {
