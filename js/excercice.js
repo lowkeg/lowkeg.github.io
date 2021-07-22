@@ -5,7 +5,7 @@ const form = document.querySelector("form");
 console.log(bouton);
 let resultat = document.getElementById("result");
 
-function verifimposition() {
+function verifimposition(e) {e.preventDefault();
   age = document.getElementById("age-saisi");
   console.log(age);
   genre = document.getElementById("genre-saisi");
