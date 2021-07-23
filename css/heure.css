@@ -1,0 +1,37 @@
+html{
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.contain{
+    width: 50%;
+    max-width: 100%;
+    display:flex;
+    margin: auto;
+    background-color: beige;
+  flex-direction: column;
+/* justify-content: center; */
+
+    box-shadow: 6px 6px 6px;
+    text-align: center;
+}
+.hours{
+    transition: 2.25ms;
+    background-color: rgb(202, 169, 169);
+    box-shadow: 2px 2px 2px;
+  margin: 10px;
+    
+    border-radius: 12px;
+   padding: 10px;
+   
+}
+
+input{
+    width: 50%;
+    align-self: center;
+}
+button{
+    width: 50%;
+    align-self: center;
+}
