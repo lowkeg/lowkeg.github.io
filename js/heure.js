@@ -11,21 +11,21 @@ function displayhours(e) {
   m = document.getElementById("m").value;
   s = document.getElementById("s").value;
   s++;
-  if (h > 23) {
-    h = 0 ;
+  if (s > 59) {
+    s = 0;
+    m++;
   }
   if (m > 59) {
     m = 0;
     h++;
   }
-  if (s > 60) {
-    s = 0;
-    m++;
-    
+
+  if (h > 23) {
+    h = 0;
   }
   affichage = h + "h" + m + "m" + s + "s";
-  result.classList.add("hours")
-  result.textContent = affichage ;
+  result.classList.add("hours");
+  result.textContent = affichage;
 }
 
 bouton.addEventListener("click", displayhours);
