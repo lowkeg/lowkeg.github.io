@@ -6,6 +6,7 @@ const c = 0.08;
 const d = 1;
 let result = document.getElementById("result");
 const form = document.querySelector("form");
+
 console.log(result);
 function price(e) {e.preventDefault();
   number = document.getElementById("photocopies").value;
@@ -25,4 +26,4 @@ function price(e) {e.preventDefault();
   }
 }
 
-form.addEventListener("submit", price);
+form.addEventListener("submit", price, false);

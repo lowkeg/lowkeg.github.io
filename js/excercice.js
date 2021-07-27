@@ -5,9 +5,9 @@ const form = document.querySelector("form");
 console.log(bouton);
 let resultat = document.getElementById("result");
 
-function verifimposition(e) {e.preventDefault();
+function verifimposition() {
   age = document.getElementById("age-saisi");
-  console.log(age);
+  
   genre = document.getElementById("genre-saisi");
   
   if (age.value > 20 && genre.value == "Masculin") {
@@ -25,4 +25,4 @@ function verifimposition(e) {e.preventDefault();
   }
 }
 // return alert("vous n'êtes pas imposable");
-form.addEventListener("submit", verifimposition);
+form.addEventListener("submit", verifimposition, false);
